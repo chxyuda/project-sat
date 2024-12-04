@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  max-width: 400px;
+  padding: 50px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.signup-button {
+  background-color: transparent; /* ไม่มีสีพื้นหลัง */
+  color: #007bff; /* สีตัวอักษร */
+  border: 1px solid #007bff; /* กรอบสีเดียวกับตัวอักษร */
+  border-radius: 4px; /* มุมโค้ง */
+  padding: 5px 10px; /* เพิ่มระยะห่างในปุ่ม */
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.signup-button:hover {
+  background-color: #007bff; /* เพิ่มสีพื้นหลังเมื่อเลื่อนเมาส์ */
+  color: #fff; /* เปลี่ยนสีตัวอักษรเป็นสีขาว */
+}
+
+
